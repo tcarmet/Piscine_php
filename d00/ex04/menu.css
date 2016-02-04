@@ -1,0 +1,35 @@
+ul {
+	list-style-type: none;
+	height: 30px;
+	text-align: center;
+}
+
+body {
+	width: 50%;
+	height: 50%;
+	margin-right: 50%;
+}
+
+ul li {
+	line-height: 60px;
+	min-width: 150px;
+	height: 60px;
+	background-color: #3F3F3F;
+	float: left;
+}
+
+ul li ul {
+	margin-left: -40px;
+	height: 30px;
+	display: none;
+}
+
+ul li ul li {
+	line-height: 30px;
+	height: 30px;
+	float: none;
+}
+
+ul li:hover ul {
+	display: block;
+}

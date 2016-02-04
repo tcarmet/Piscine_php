@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title> Baloon </title>
+	</head>
+	<body id="two">
+		<div id="one" onclick="fct();" onmouseout="fct2();" style='width: 200px; height: 200px; background-color: red; border-radius: 200px'>
+		</div>
+		<script>
+			var element = document.getElementById('one');
+			var elem = document.getElementById('two');
+			var size = 200;
+			var color = 'red';
+			function fct(){
+				size = size + 10;
+				if (color == 'red')
+					color = 'green';
+				else if (color == 'green')
+					color = 'blue';
+				else if (color == 'blue')
+					color = 'red';
+				if (size >= 420)
+					size = 200;
+				element.setAttribute('style', 'width: '+size+'px; height: '+size+'px; border-radius: '+size+'px; background-color:'+color+';');
+				var_text = document.createTextNode('');
+				element.appendChild(var_text);
+				elem.appendChild(element);
+			}
+			function fct2(){
+				if (size > 200)
+				size = size - 5;
+				if (color == 'green')
+				color = 'red';
+				else if (color == 'blue')
+				color = 'green';
+				else if (color == 'red')
+				color = 'blue';
+				element.setAttribute('style', 'width: '+size+'px; height: '+size+'px; border-radius: '+size+'px; background-color:'+color+';');
+				var_text = document.createTextNode('');
+				element.appendChild(var_text);
+				elem.appendChild(element);
+			}
+		</script>
+	</body>
+</html>

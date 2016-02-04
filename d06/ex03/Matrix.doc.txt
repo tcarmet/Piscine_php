@@ -1,0 +1,58 @@
+
+<- Matrix ----------------------------------------------------------------------
+The Matrix class handles de matrix representation
+
+An instance can be constructed with a preset.
+
+new Matrix ( array( 'preset' => Matrix::[preset]) );
+
+Preset are :
+
+-	IDENTITY
+
+-	SCALE
+
+-	RX
+
+-	RY
+
+-	RZ
+
+-	TRANSLATION
+
+-	PROJECTION
+
+
+The withstood keys are :
+
+-	preset
+
+-	scale
+
+-	angle
+
+-	vtc
+
+-	fov
+
+-	ratio
+
+-	near
+
+-	far
+
+
+The public functions are :
+
+-	Matrix	mult( Matrix $rhs );
+Returns a new matrix multiplication Result of
+the two matrices.
+
+-	Matrix	Vertex transformVertex( Vertex $vtx );
+Returns a new vertex results
+transformation of the vertex by the matrix.
+
+
+SEE ALSO :
+	Vector.doc.txt
+---------------------------------------------------------------------- Matrix  ->

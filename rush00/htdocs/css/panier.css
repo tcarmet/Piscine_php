@@ -1,0 +1,23 @@
+.td
+{
+	width: 100%;
+border: 1px solid grey;
+	text-align: center;
+	min-width: 120px;
+}
+
+.color
+{
+	background-color: #AAAAAA;
+}
+
+.conf
+{
+	height: 200px;
+	width: 200px;
+}
+
+.for
+{
+	text-align: right;
+}

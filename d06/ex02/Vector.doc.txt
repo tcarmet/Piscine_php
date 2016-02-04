@@ -1,0 +1,48 @@
+<- Vector ----------------------------------------------------------------------
+The Vector class handles 3D orientation.
+
+An instance can be constructed with a dest constitutive:
+
+new Vector ( array( 'dest' => new Vertex (...) ) );
+
+You can also add a 'orig' constitutive :
+
+new Vector ( array( 'dest' => new Vertex(...), 'orig' =>  new Vertex(...) ) );
+
+'dest' is the Vertex of destination of the vector, and it is mandatory.
+'orig' is the Original Vertex vector, optional, is a fresh instance of the Vertex
+and x=0, y=0, z=0, w=1 are assigned by default.
+
+The class provides de folowing method :
+
+Vector  magnitude( );
+Returns the length (or "Norm") of the vector. 
+
+Vector normalize( );
+Returns the normalized vector. If the vector is already normalized,
+returns a fresh copy of the vector.
+
+Vector add( Vector $rhs );
+Returns the vector sum of two vectors.
+
+Vector sub( Vector $rhs );
+Returns the vector difference of two vectors. 
+
+Vector opposite( );
+Returns the opposite vector.
+
+Vector scalarProduct( $k );
+Return the product of the vector with a scalar.
+
+Vector dotProduct( Vector $rhs );
+Return the dot product of two vectors. 
+
+Vector cos( Vector $rhs );
+Returns the cosine of the angle between two vectors.
+
+Vector crossProduct ( Vector $rhs );
+Return the cross product of two vectors.
+
+SEE ALSO
+	Vertex.doc.txt
+---------------------------------------------------------------------- Vector ->

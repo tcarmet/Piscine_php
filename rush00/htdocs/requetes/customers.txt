@@ -1,0 +1,1 @@
+INSERT INTO customers VALUES('', 'Mr', 'Tanguy', 'Coppin', 'tcoppin@42shop.fr', '6a1b27fec2a06aaba1a11193dca684a3b449d687ffc35c3e3a58f4f6620e6e9c451b79f2b138baa6274741d223f618fc53aa1391196579920c3f629b8c656bc01bade0f143dcf7c1e7956689a28d351d34db6697')

@@ -1,0 +1,7 @@
+INSERT INTO categories VALUES('', 'Juillet')
+INSERT INTO categories VALUES('', 'Août')
+INSERT INTO categories VALUES('', 'Septembre')
+INSERT INTO categories VALUES('', '2013')
+INSERT INTO categories VALUES('', '2014')
+INSERT INTO categories VALUES('', 'Homme')
+INSERT INTO categories VALUES('', 'Femme')

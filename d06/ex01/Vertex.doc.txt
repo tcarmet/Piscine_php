@@ -1,0 +1,54 @@
+
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles space representation.
+
+An instance can be constructed with x, y, z constitutives:
+
+new Vertex ( array( 'x' => 1.0, 'y' => 1.0, 'z' => 1.0 ) );
+
+You can also add a Class Color and/or an homogeneous coordinate constitutive(s):
+
+new Vertex ( array( 'x' => 1.0, 'y' => 1.0, 'z' => 1.0, 'color' => new Color(...), 'x' => 1.0 ) );
+
+X, y, z constitutives are coordinates.
+X is the point's abscissa.
+Y is the point's ordinate.
+Z is the point's depth.
+Color is the point's color, Default value is ( array ( 'rgb' => 765 ) ).
+W is the point's homogeneous coordinate, Default value is 1.0.
+
+The class provides the following methods :
+
+Vertex  getW( );
+Returns the w constitutive's value;
+
+Vertex  setW( $w );
+Set the w constitutive's value;
+
+Vertex  getX( );
+Returns the x constitutive's value;
+
+Vertex  setX( $x );
+Set the x constitutive's value;
+
+Vertex  getY( );
+Returns the y constitutive's value;
+
+Vertex  setY( $y );
+Set the y constitutive's value;
+
+Vertex  getZ( );
+Returns the z constitutive's value;
+
+Vertex  setZ( $z );
+Set the z constitutive's value;
+
+Vertex  getColor( );
+Returns the color constitutive's value;
+
+Vertex  setColor( $color );
+Set the color constitutive's value;
+
+SEE ALSO :
+	Color.doc.txt
+---------------------------------------------------------------------- Vertex  ->

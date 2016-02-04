@@ -1,0 +1,168 @@
+body {
+	background-image: url("../img/matrix.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+a:link {
+	color: #3ADF00;
+}
+a:visited {
+	color: #9AFE2E;
+}
+a:hover{
+	color: #298A08;
+}
+a:active{
+	color: #BEF781;
+}
+
+.copy {
+	text-align: center;
+	font-size: 12px;
+}
+.text_promo {
+	text-align: center;
+	color: #DF0101;
+}
+.text_menu {
+	text-align: center;
+	color: #0B610B;
+}
+#global {
+	background-image: url("../img/fond.png");
+	background-repeat: auto;
+}
+#header {
+	background-image: url("../img/head.jpg");
+	height: 180px;
+	border-radius: 2vh;
+}
+.ecrit {
+	margin: 10 10 10 10;
+}
+#recherche {
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 25px;
+	background-color: #E6E6E6;
+}
+#promo {
+	border-radius: 2vh;
+	width: 100%;
+	height: 250px;
+	background-color: #F2F2F2;
+	border-style: solid;
+	border-width: 1px;
+}
+#pied {
+	margin-top: 10px;
+	border-radius: 2vh;
+	width: 100%;
+	height: 180px;
+	background-color: #848484;
+	float: left;
+	font-size: 12px;
+	font-family: arial;
+}
+#articles {
+	padding-top: 5px;
+	text-align: center;
+	float: left;
+	border-radius: 2vh;
+	background-color: #D8D8D8;
+	min-width: 200px;
+	margin-right: 2%;
+	margin-top: 1%;
+	width: 16.5%;
+	height: 15vh;
+}
+
+@media all and (max-width: 600px){
+	#membre {
+		width: 100%;
+		border-style: groove;
+		float: right;
+		margin-top: -10px;
+		margin-bottom: 10px;
+		border-radius: 2vh;
+		background-color: #FFFFFF;
+		height: 160px;
+	}
+	#general {
+		width: 100%;
+		height: 10px;
+		margin-top: 225px;
+	}
+	#menu {
+		float: right;
+		width: 40%;
+	}
+	#content {
+		float: left;
+		width: 60%;
+	}
+}
+
+@media all and (max-width: 1200px) and (min-width: 600px){
+	#membre {
+		width: 50%;
+		border-style: groove;
+		float: right;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right: 10px;
+		border-radius: 2vh;
+		background-color: #FFFFFF;
+		height: 160px;
+	}
+	#general {
+		width: 100%;
+		height: 10px;
+		margin-top: 60px;
+	}
+	#menu {
+		float: right;
+		width: 40%;
+	}
+	#content {
+		float: left;
+		width: 60%;
+	}
+}
+
+@media all and (min-width: 1200px){
+	#membre {
+		width: 50%;
+		border-style: groove;
+		float: right;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right: 10px;
+		border-radius: 2vh;
+		background-color: #FFFFFF;
+		height: 160px;
+	}
+	#general {
+		width: 100%;
+		height: 10px;
+		margin-top: 60px;
+	}
+	#menu {
+		float: right;
+		width: 35%;
+	}
+	#content {
+		float: left;
+		width: 65%;
+	}
+}
+
+@media all and (min-width: 1700px){
+	#global {
+		margin-left: auto;
+		margin-right: auto;
+		width: 1800px;
+	}
+}

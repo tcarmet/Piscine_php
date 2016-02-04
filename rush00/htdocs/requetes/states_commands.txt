@@ -1,0 +1,5 @@
+INSERT INTO states_commands VALUES('', 'En attente')
+INSERT INTO states_commands VALUES('', 'Validée')
+INSERT INTO states_commands VALUES('', 'En cours de préparation')
+INSERT INTO states_commands VALUES('', 'Expédiée')
+INSERT INTO states_commands VALUES('', 'Livrée')

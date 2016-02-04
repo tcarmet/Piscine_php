@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>It's over 9000</title>
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	</head>
+	<body>
+		<table style='width: 50vmax;' align=center>
+			<tr>
+				<td style='background: AA5533;'>
+					<input id="gauche" type="text" value="0"></input>
+				</td>
+				<td id="ope">
+					<p id="tot">0</p>
+				</td>
+				<td style='background: CC4422;'>
+					<input id="droite" type="text" value="0"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<select id='selection' style='width: 100%;'>
+						<option value='' selected></option>
+						<option value='+'>+</option>
+						<option value='-'>-</option>
+						<option value='*'>*</option>
+						<option value='/'>/</option>
+						<option value='%'>%</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<input id="egal" type=submit value="Try me!"></input>
+				</td>
+			</tr>
+		</table>
+		<script>
+			var result = 0;
+			var ope = '';
+			$("#egal").click(function() {
+				var tmp = $("#selection").val();
+				if (tmp != '')
+					ope = tmp;
+				else
+				ope = "-1";
+				$("#selection").val();
+				var gch = $("#gauche").val();
+				var drte = $("#droite").val();
+				if (ope == "-1" || parseInt(gch) != gch || gch < 0 || drte < 0)
+				{
+					alert('Error :(');
+					return ;
+				}
+				else if (ope == '+')
+				result = parseInt(gch) + parseInt(drte);
+				else if (ope == '-')
+				result = gch - drte;
+				else if (ope == '/')
+				{
+					if (drte == 0)
+					{
+						alert("It\'s over 9000!");
+						console.log("It\'s over 9000!");
+						return ;
+					}
+					result = gch / drte;
+				}
+				else if (ope == '*')
+				result = gch * drte;
+				else if (ope == '%')
+				{
+					if (drte == 0)
+					{
+						alert('It\'s over 9000!');
+						console.log('It\'s over 9000!');
+						return ;
+					}
+					result = gch % drte;
+				}
+				var element = $("#ope");
+				var elem = $("#tot");
+				result = result + ""
+				alert(result);
+				console.log(result);
+				elem.remove();
+				element.append("<p id=\"tot\">" + result + "</p>");
+			});
+			setInterval(function(){alert("Please, use me...")}, 30000);
+		</script>
+	</body>
+</html>

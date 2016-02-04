@@ -1,0 +1,4 @@
+INSERT INTO ranks VALUES('', 'Dieu')
+INSERT INTO ranks VALUES('', 'Sous-fifre')
+INSERT INTO ranks VALUES('', 'Esclave')
+INSERT INTO administrators VALUES('', 'root', '1405a73b2a088bc5e774588e2c34fcefc575b3f83d44e6e60d782df4a7e4689404dd45f1ec6a2cf9b0b14fb2b443e2f6160369fa7f40313418e5ad6481a85bb07350ab9f437852bafdc524af8561a2a60441ac7b', 'root@42shop.fr', '1')

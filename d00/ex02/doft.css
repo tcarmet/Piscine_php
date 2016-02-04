@@ -1,0 +1,225 @@
+body {
+	background-color: #3F3F3F;
+}
+
+/* body */
+
+.header {
+	position: relative;
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 1200px;
+	height: 130px;
+	box-shadow: 10px 10px 30px #040402;
+	background-color: #909090;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.body_3_fantastic {
+	width: 1200px;
+	margin-left: 100px;
+
+}
+
+.body_left {
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 150px;
+	height: 400px;
+	background-color: #909090;
+	box-shadow: 10px 10px 30px #040402;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.body_middle {
+	position: absolute;
+	left: 108px;
+	margin-top: 20px;
+	margin-left: 200px;
+	width: 780px;
+	height: 440px;
+	background-color: #909090;
+	box-shadow: 10px 10px 30px #040402;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.body_right {
+	float: right;
+	margin-top: 20px;
+	margin-right: 30px;
+	width: 150px;
+	height: 400px;
+	background-color: #909090;
+	box-shadow: 10px 10px 30px #040402;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.brick_div {
+	width: 100px;
+	height: 70px;
+	margin-top: 0px;
+	margin-left: 25px;
+	position: relative;
+	background-image: url(resources/brick.jpg);
+}
+
+.panel_message {
+	position: absolute;
+	width: 450px;
+	height: 140px;
+	bottom: 360px;
+	left: 60px;
+	padding-top: 0;
+	padding: 10px;
+	background-color: #7AFF76;
+	box-shadow: 10px 10px 30px #040402;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+}
+/*link*/
+
+.ikea_link {
+	position: absolute;
+	width: 100px;
+	height: 200px;
+	left: 250px;
+	bottom: 20px;
+}
+
+.apple_link {
+	position: absolute;
+	width: 150px;
+	height: 130px;
+	right: 35px;
+	bottom: 70px;
+}
+
+/* text */
+
+.main_text {
+	font-size: 15px;
+	font-family: verdana;
+}
+
+.entrez_text {
+	font-family: Georgia;
+	font-size: 25px;
+}
+
+.ordi_text {
+	text-shadow: 5px 5px 3px #B36737;
+}
+
+.bonjour_text {
+	font-style: italic;
+}
+
+.normal_text {
+	font-family: verdana;
+}
+
+.champ {
+	width: 340px;
+}
+.bouton {
+	position: absolute;
+	right: 35px;
+}
+/*images*/
+
+.close {
+	bottom: 10px;
+	position: absolute;
+	right: 10px;
+}
+
+.bouton {
+	border-radius: 0px;
+}
+
+.reload {
+	width: 2%;
+	top: 10px;
+	position: absolute;
+	right: 10px;
+}
+
+.image_42 {
+	width: 100%;
+}
+
+.Day_of_image {
+	margin: 10px;
+	width: 35%;
+
+}
+
+.loupe_image {
+	width: 20%;
+	top: 10px;
+	right: 25px;
+	position: absolute;
+}
+
+.arrow_image {
+	width: 45%;
+	margin-top: 10px;
+	margin-left: 37.5px;
+}
+
+.main_image {
+	width: 45%;
+	margin-top: 5px;
+	margin-left: 37.5px;
+}
+
+.oeil_image {
+	width: 45%;
+	margin-top: 5px;
+	margin-left: 37.5px;
+	border: 5px solid #F60015;
+	border-radius: 5px;
+}
+
+.outil_image {
+	width: 45%;
+	margin-top: 5px;
+	margin-left: 37.5px;
+
+}
+
+.chat_image {
+	width: 45%;
+	margin-top: 5px;
+	margin-left: 37.5px;
+
+}
+
+.book_image {
+	width: 45%;
+	margin-top: 10px;
+	margin-left: 37.5px;
+}
+
+.serviette_image {
+	width: 50%;
+	margin-top: 10px;
+	margin-left: 37px;
+}
+
+
+
+
+

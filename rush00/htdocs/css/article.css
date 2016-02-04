@@ -1,0 +1,12 @@
+.art
+{
+	float: left;
+	border-radius: 2vh;
+	text-align: center;
+	background-color: #FBFBFB;
+	min-width: 98%;
+	width: 16.5%;
+}
+.img_si {
+	margin: 20 20 20 20;
+}
